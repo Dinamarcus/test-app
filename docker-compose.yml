@@ -13,7 +13,7 @@ services:
     - ./posgresdb:/var/lib/postgresql/data
 
   app:
-    image: dinamarcus/ddsdeploy
+    image: dinamarcus/dds-deploy
     restart: always
     ports:
       - 8080:8080
